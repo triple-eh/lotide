@@ -1,8 +1,11 @@
-const assertEqual = require('../assertEqual');
-const eqArrays = require('../eqArrays');
+const assert = require('assert');
 const middle = require('../middle');
 
-assertEqual(eqArrays(middle([1, 2, 3]), [2]), true);
-assertEqual(eqArrays(middle([1]), []), true);
-assertEqual(eqArrays(middle([1, 2]), []), true);
-assertEqual(eqArrays(middle([1, 2, 3, 4, 5, 6]), [3, 4]), true);
+describe('#middle', () => {
+  it('returns [2] for [1,2,3]', () =>{
+    assert.deepEqual(middle([1,2,3]),[2]);
+  });
+  it('returns [] for [1,2]',() => {
+    assert.deepEqual(middle([1,2]),[]);
+  });
+});
