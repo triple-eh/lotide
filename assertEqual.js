@@ -6,6 +6,4 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// TEST CODE
-assertEqual("Hello", "Goodbye");
-assertEqual(2, 2);
+module.exports = assertEqual;

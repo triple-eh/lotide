@@ -1,0 +1,28 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "library of functions",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triple-eh/lotide.git"
+  },
+  "author": "triple_eh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/triple-eh/lotide/issues"
+  },
+  "homepage": "https://github.com/triple-eh/lotide#readme"
+}
